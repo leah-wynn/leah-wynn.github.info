@@ -88,6 +88,17 @@ a:hover, a:focus {
 }
 
 .small_txt {
-
 	font-size: small;
+}
+
+.toggle_color{
+	text-align: right;
+	position: relative;
+	top:15px;
+	left:-20px;
+}
+
+.toggle_color:hover {
+	color:white;
+	
 }
