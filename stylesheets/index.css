@@ -1,0 +1,47 @@
+h1, h2, h3, h4, h5, h6, h7, p, span {
+	font-family: "Source Code Pro", sans-serif!important;
+	text-transform: none!important;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+code {
+	background-color: transparent;
+}
+.standard {
+	margin: 1rem 0 !important;
+}
+
+.panel {
+	padding-left: 1em;
+	margin-bottom: 1em;
+}
+
+.subskills {
+	padding-left: 2em;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 50px;
+	text-align: center;
+}
+
+a > i {
+	margin: 0.3em 0;
+	padding: 0 0.5em;
+	color: #cb4b16!important;
+}
+
+a:hover, a:focus {
+	text-decoration: underline;
+}
+
+.offset {
+	height: 55px;
+}
