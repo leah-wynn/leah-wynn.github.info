@@ -38,6 +38,11 @@ a > i {
 	color: #cb4b16!important;
 }
 
+a {
+	text-decoration: none;
+	color: #2aa198!important;
+}
+
 a:hover, a:focus {
 	text-decoration: underline;
 }
