@@ -7,6 +7,11 @@ h1, h2, h3, h4, h5, h6, h7, p, span {
 	text-transform: none!important;
 }
 
+h2 {
+	color:#859900;
+	padding:10px;
+}
+
 html {
 	overflow-x: hidden;
 }
@@ -49,7 +54,8 @@ a {
 
 a:hover, a:focus {
 	text-decoration: underline;
-	background-color: transparent;
+	background-color: transparent!important;
+
 }
 
 .offset {
@@ -98,13 +104,8 @@ a:hover, a:focus {
 
 
 .toggle_color {
-	text-align: right;
-	position: relative!important;
-	top:15px!important;
-	left:-20px!important;
+    float: right;
+    margin-right: 1em;
+    cursor: pointer;
 }
 
-.toggle_color:hover {
-	color:white;
-
-}

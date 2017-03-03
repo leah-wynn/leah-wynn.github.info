@@ -456,7 +456,7 @@ html.dark h1, html.dark h2, html.dark h3, html.dark h4, html.dark h5, html.dark 
 html.dark h1#pagetitle, html.dark h1:first-of-type {
   color: #93a1a1; }
 html.dark h2#pagesubtitle, html.dark h2:first-of-type {
-  color: #586e75; }
+  color: #859900; }
 html.dark a, html.dark a:active, html.dark a:visited {
   color: #93a1a1; }
 html.dark a:hover {
@@ -617,7 +617,7 @@ h1 a:hover, h2 a:hover {
 pre.sourceCode, table.sourceCode, table.sourceCode * {
   font-family: monospace; }
 
-code.sourceCode span.kw {
+code.sourceCode .kw {
   color: #b58900;
   font-weight: bold; }
 
