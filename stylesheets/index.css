@@ -1,3 +1,7 @@
+* {
+	transition: all 0.3s ease-in;
+}
+
 h1, h2, h3, h4, h5, h6, h7, p, span {
 	font-family: "Source Code Pro", sans-serif!important;
 	text-transform: none!important;
@@ -45,6 +49,7 @@ a {
 
 a:hover, a:focus {
 	text-decoration: underline;
+	background-color: transparent;
 }
 
 .offset {
@@ -91,14 +96,15 @@ a:hover, a:focus {
 	font-size: small;
 }
 
-.toggle_color{
+
+.toggle_color {
 	text-align: right;
-	position: relative;
-	top:15px;
-	left:-20px;
+	position: relative!important;
+	top:15px!important;
+	left:-20px!important;
 }
 
 .toggle_color:hover {
 	color:white;
-	
+
 }
