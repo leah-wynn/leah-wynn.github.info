@@ -28,7 +28,7 @@ code {
 	margin-bottom: 1em;
 }
 
-.subskills {
+.subSkills {
 	padding-left: 2em;
 }
 
@@ -76,8 +76,7 @@ a:hover, a:focus {
   animation: type2 8s steps(60, end);
 }
 
-
-.cursior{
+.cursor{
   animation: blink 1s infinite;
 }
 
